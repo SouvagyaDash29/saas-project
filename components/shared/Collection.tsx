@@ -12,7 +12,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import { transformationTypes } from "@/constants";
-import { IIMage } from "@/lib/database/models/image.model";
+import { IImage } from "@/lib/database/models/image.model";
 import { formUrlQuery } from "@/lib/utils";
 
 import { Button } from "../ui/button";
@@ -24,7 +24,7 @@ export const Collection = ({
   totalPages = 1,
   page,
 }: {
-  images: IIMage[];
+  images: IImage[];
   totalPages?: number;
   page: number;
   hasSearch?: boolean;
@@ -55,7 +55,7 @@ export const Collection = ({
       {images.length > 0 ? (
         <ul className="collection-list">
           {images.map((image) => (
-            <Card image={image} key={image._id} />
+            <Card image={image} key={String(image._id)} />
           ))}
         </ul>
       ) : (
@@ -93,7 +93,7 @@ export const Collection = ({
   );
 };
 
-const Card = ({ image }: { image: IIMage }) => {
+const Card = ({ image }: { image: IImage }) => {
   return (
     <li>
       <Link href={`/transformation/${image._id}`} className="collection-card">
