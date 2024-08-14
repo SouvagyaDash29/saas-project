@@ -2,6 +2,6 @@ import { SignIn } from "@clerk/nextjs";
 
 export default function Page() {
     return(
-        <SignIn  path="/sign-in" signUpUrl="/sign-up" forceRedirectUrl='/' />
+        <SignIn  path="/sign-in" signUpUrl="/sign-up" />
     )
 }
