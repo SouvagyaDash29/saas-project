@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🖼️ Imaginify - SaaS Image Editing Application
 
-## Getting Started
+Welcome to **Imaginify**, a Software as a Service (SaaS) application offering a suite of advanced image editing features. Enhance your images effortlessly with our intuitive tools.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [🌟 Features](#-features)
+- [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Getting Started](#-getting-started)
+- [📸 Screenshots](#-screenshots)
+- [📧 Contact](#-contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Image Restore**: 🛠️ Revitalize old or damaged photos.
+- **Generative Fill**: ✨ Add new elements seamlessly into your images.
+- **Object Remove**: ❌ Effortlessly eliminate unwanted objects.
+- **Object Recolor**: 🎨 Change the color of specific objects with precision.
+- **Background Remove**: 🖼️ Isolate subjects by removing backgrounds.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Technologies Used
 
-## Learn More
+- **Frontend**: ⚛️ Next.js
+- **Styling**: 🎨 Tailwind CSS
+- **Authentication**: 🔐 Clerk
+- **Deployment**: 🚀 Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The repository is organized as follows:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **app/**: Core application components and pages.
+- **components/**: Reusable UI components.
+- **constants/**: Application-wide constants.
+- **lib/**: Utility functions and libraries.
+- **public/**: Static assets and images.
+- **types/**: TypeScript type definitions.
+- **.eslintrc.json**: ESLint configuration.
+- **.gitignore**: Git ignore rules.
+- **README.md**: Project documentation.
+- **package.json**: Project metadata and dependencies.
+- **tailwind.config.ts**: Tailwind CSS configuration.
+- **tsconfig.json**: TypeScript configuration.
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To set up the project locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/SouvagyaDash29/saas-project.git
+   cd saas-project
+    ```
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+3. **Configure environment variables**:
+   - Create a .env.local file in the root directory.
+  
+4. **Run the development server**:
+   ```bash
+   npm run dev
+    ```
+   ## 📸 Screenshots
+   
+   - **Home Page**
+   - ![Screenshot (263)](https://github.com/user-attachments/assets/eb1668bf-3860-468c-af0a-64aff0d54d56)
+   - ![Screenshot (265)](https://github.com/user-attachments/assets/20876ed3-3693-4f25-8cbd-35cd38134185)
+   - **Signup page**
+   - ![Screenshot (264)](https://github.com/user-attachments/assets/2fcb631f-0313-4201-97cf-bf33c211d976)
+   - **Image Restore Feature**
+   - ![Screenshot (266)](https://github.com/user-attachments/assets/263d1a52-35f1-4d7b-8df4-584f7f3b8005)
+   - **Generative Fill Feature**
+   - ![Screenshot (267)](https://github.com/user-attachments/assets/1d77f0c8-be60-4ac6-8d3f-213c64bba3b0)
+   - **Object Remove Feature**
+   - ![Screenshot (268)](https://github.com/user-attachments/assets/1d8f3499-f982-4ba2-9392-9fcc2bf491bb)
+   - **Object Recolor Feature**
+   - ![Screenshot (269)](https://github.com/user-attachments/assets/6ecc445b-bc18-4924-9904-5378512ceb7f)
+   - **Background Remove Feature**
+   - ![Screenshot (270)](https://github.com/user-attachments/assets/f3ff8e75-474c-4bff-a737-8b5f566205c7)
+  
+6. ## 📧 Contact
+
+For any inquiries or feedback, please contact [Souvagya Dash](mailto:souvagyaranjandash8@gmail.com).
+
+---
+
+*Happy Coding!* 🎉
